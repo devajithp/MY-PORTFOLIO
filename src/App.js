@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Header></Header>
-      <Route exact path="/"><Home ></Home></Route>
+      <Route exact path="/home"><Home ></Home></Route>
       <Route exact path="/works"><Works></Works></Route>
       <Route exact path="/services"><Services></Services></Route>
       
