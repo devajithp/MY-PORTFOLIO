@@ -3,14 +3,17 @@ import './App.css';
 import Home from './Components/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import { BrowserRouter, Route } from "react-router-dom"
+import { BrowserRouter, HashRouter, Route } from "react-router-dom"
 import Works from './Components/Works';
 import Services from './Components/Services';
+import { useState } from 'react';
 
 
 function App() {
+
+  
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Header></Header>
       <Route exact path="/home"><Home ></Home></Route>
@@ -19,7 +22,8 @@ function App() {
       
       <Footer></Footer>
        </div>
-    </BrowserRouter>
+       </HashRouter>
+    
   );
 }
 
