@@ -3,7 +3,7 @@ import React, { } from 'react'
 function Home() {
     
   return (
-    <div style={{paddingTop:"70px"}} >
+    <div style={{paddingTop:"100px"}} >
     
      <img style={{width:"100%"}} src='https://res.cloudinary.com/dw7fovacw/image/upload/v1679409814/Untitled_rg5e0l.jpg'></img>
 

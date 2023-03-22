@@ -33,22 +33,26 @@ function Services() {
   about:"I can deploy web applications to a hosting environment and manage their ongoing maintenance, including security updates and performance optimization."
 }]
   return (
-    <div style={{paddingTop:"80px",backgroundColor:"#e0e0d1"}}>
-      {/* <img style={{width:"100%"}} src='https://res.cloudinary.com/dw7fovacw/image/upload/v1679476019/service_cover_du0dxe.jpg'></img> */}
+    <div style={{paddingTop:"109px",backgroundColor:"#e0e0d1"}}>
+      
       <div className='Headings bg-dark text-white  ' style={{height:"75px",width:"",paddingTop:"10px",textAlign:"center"}}>
      <h2  >My Services</h2>
      </div>
       <br></br><br></br>
-      <div className='container' style={{alignItems:"center"}}>
-        <div style={{}} className='row'>
+      <div className='container overflow-hidden' style={{alignItems:"center"}}>
+        <div style={{}} className='row '>
           {services && services.map((service)=>
           {
                return(
-                <div  style={{alignItems:"center",textAlign:"center",height:"400px",width:"370px",marginTop:"30px",marginLeft:"40px",paddingTop:"20px",borderRadius:"10px"}} className='col-md-4 bg-light'>
+                <div  style={{alignItems:"center",textAlign:"center",height:"400px",marginTop:"30px",marginBottom:"10px",padding:"15px"}} className='col-md-4  '>
+                  <div className='bg-light' style={{paddingBottom:"20px",paddingTop:"20px",borderRadius:"10px"}}>
                   <img style={{height:"100px",width:"110px",borderRadius:"50%",borderStyle:"solid",borderColor:"green"}} src={`${service.image}`}></img><br></br>
                   <h4 className='ubuntu'>{service.title}</h4><br></br>
+                  <div className='container'>
                   <div style={{height:"200px",overflowY:"scroll",overflowWrap:"break-word",textAlign:"justify"}}>
                     <p>{service.about}</p>
+                    </div>
+                    </div>
                   </div>
                   
 

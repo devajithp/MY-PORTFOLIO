@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import { BrowserRouter, Route } from "react-router-dom"
 import Works from './Components/Works';
 import Services from './Components/Services';
-import Certifications from './Components/Certifications';
+
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Route exact path="/"><Home ></Home></Route>
       <Route exact path="/works"><Works></Works></Route>
       <Route exact path="/services"><Services></Services></Route>
-      <Route exact path="/certifications"><Certifications></Certifications></Route>
+      
       <Footer></Footer>
        </div>
     </BrowserRouter>

@@ -31,7 +31,7 @@ function Works() {
 }]
   return (
     
-    <div className='row' style={{paddingTop:"88px",minHeight:"700px", backgroundColor:"#e0e0d1", textAlign:"center",display:"block"}}>
+    <div className='row' style={{paddingTop:"109px",minHeight:"700px", backgroundColor:"#e0e0d1", textAlign:"center",display:"block"}}>
       <div className='Headings bg-dark text-white col-md-12' style={{height:"75px",width:"",paddingTop:"10px"}}>
      <h2  >My Works</h2>
      </div>
@@ -40,7 +40,7 @@ function Works() {
       works && works.map((work)=>
       {
          return(
-            <div className='bg-light ' style={{minHeight:"600px",width:"800px", marginLeft:"auto",marginRight:"auto",paddingTop:"20px",borderRadius:"10px",marginTop:"40px"}}>
+            <div className='bg-light ' style={{minHeight:"600px",width:"800px", marginLeft:"auto",marginRight:"auto",paddingTop:"20px",borderRadius:"10px",marginTop:"40px",marginBottom:"10px"}}>
                
             <h3 className='ubuntu' >{work.name}</h3>
            <iframe style={{marginTop:"10px"}} width="350" height="250"
