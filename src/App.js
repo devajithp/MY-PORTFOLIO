@@ -13,16 +13,16 @@ function App() {
 
   
   return (
-    <HashRouter>
+    <BrowserRouter>
     <div className="App">
       <Header></Header>
-      <Route exact path="/home"><Home ></Home></Route>
+      <Route exact path="/MY-PORTFOLIO"><Home ></Home></Route>
       <Route exact path="/works"><Works></Works></Route>
       <Route exact path="/services"><Services></Services></Route>
       
       <Footer></Footer>
        </div>
-       </HashRouter>
+       </BrowserRouter>
     
   );
 }

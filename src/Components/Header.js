@@ -18,7 +18,7 @@ function Header() {
      <div  class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
-           <p class="nav-link  " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{cursor:"pointer"}} onClick={()=>history.push("/home")} aria-current="page" >Home</p>
+           <p class="nav-link  " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{cursor:"pointer"}} onClick={()=>history.push("/MY-PORTFOLIO")} aria-current="page" >Home</p>
          </li>
          <li class="nav-item">
            <p  className="nav-link " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{cursor:"pointer"}} onClick={()=>history.push("/works")}  >Works</p>
