@@ -46,7 +46,7 @@ function Works() {
            <iframe style={{marginTop:"10px"}} width="350" height="250"
       src={`https://www.youtube.com/embed/${work.video.substring(17)}`}>
           </iframe><br></br> 
-          <a className='text-secondary' href={work.url}>Website</a>
+          <a className='text-secondary' href={work.url} target="_blank">Website</a>
           <hr></hr>
           <div className='container'>
           <div className='row'>
