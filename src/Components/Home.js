@@ -21,7 +21,7 @@ function Home() {
 <br></br>I also have experience with other commonly used tools and technologies in MERN stack development, including Git, NPM, Webpack, Babel, and Redux. In addition, I have contributed to open source projects related to MERN stack development and have worked collaboratively on team projects.
 
 <br></br>My portfolio demonstrates my passion for creating high-quality web applications and showcases my technical skills as a MERN stack developer. I am confident in my ability to work collaboratively and to create dynamic and engaging web applications using the MERN stack. 
-<br></br> In addition to my technical skills and experience, I am committed to staying up-to-date with the latest trends and developments in MERN stack development. I continuously seek out new resources and participate in online communities to learn from other developers and stay current with emerging best practices and tools. I am passionate about creating user-friendly and visually appealing web applications that provide a seamless user experience. With my strong technical skills, collaborative mindset, and dedication to ongoing learning and improvement, I am excited to bring my expertise as a MERN stack developer to any project or team.
+<br></br> In addition to my technical skills and experience, I am committed to staying up-to-date with the latest trends and developments in MERN stack development. I continuously seek out new resources and participate in online communities to learn from other developers and stay current with emerging best practices and tools. I am passionate about creating user-friendly and visually appealing web applications that provide a seamless user experience.
             </p>
           </div>
           </div>
